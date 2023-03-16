@@ -1,0 +1,68 @@
+program Multiply(in);
+var pro,temp:integer;
+var diff,t1,t2:integer;
+var sum:real;
+
+procedure Mul(a,b:integer);
+{
+	t1:=3+4;
+	
+
+	if(b > 1) then
+	{
+		/*Mul(a,b-1);*/
+		pro := pro+a
+	}
+	else
+		pro := a
+}
+
+procedure Add(x,y:real);
+{
+	sum:=x+y
+}
+
+procedure ItMul(m,n:integer);
+var count:integer;
+{	
+	while (count <> 0) do
+	{
+		pro := m+n;
+		m:=m-1;
+		count:=count-1
+	}
+}
+
+procedure Hello;{}
+
+procedure Fac(z:real);
+var test:integer;
+var a,b,c,d,e,f:real;
+{
+	>>test,a,b,temp;
+	<<test+(f >= e) + 10
+	
+}
+
+{
+	>>t1,t2;
+	t1:=t1+4;
+	Mul(t1,(t2+3*4));
+	
+	<<pro;
+	HELLO;
+	/*add(t1*4.4,t2+2.2);*/
+	if (t1 < t2) and (t2 < sum) then
+		if t1 <> sum then
+			<<!sum
+		else
+			sum:=sum/sum
+	else
+		if t2 <> sum then
+			<<sum+sum
+		else
+			sum:=0;
+	while 0.1 do
+		while 234.34 do
+			if 0.234 then if 45.23 then Fac(23) else Fac(0) else Fac(4.45)
+}

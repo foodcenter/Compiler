@@ -1,0 +1,57 @@
+program lex(parser);
+
+var temp,temp1,temp2,temp3 : real;
+var x,f,c:integer;
+/*var t:array[34..67]of real;
+*/
+procedure add;
+var s:real;
+var a,b,c,g,d,t,temp1:integer;
+{
+	add;
+	s:= s<a;
+	a:=1;
+	f:=10;
+	a:=b+c;
+	a:=(b>3) < (c<d);
+	x:=x * 10.10;
+	a:=b+c;
+	a:=b mod c;
+	a:=b and c;
+	a:=b or c;
+	a:=b or c - d;
+	a:=b-c;
+	<<(c);
+	>> b;
+	while (t<10) do 
+	{
+		c:=t+c*d;
+		c:=b*c
+	};
+	a:=b;
+	if a<10 then c:=a+a else g:=a*a;
+
+	a:=b+c;
+	a:=b;
+
+	if (a*b)=(b/c) then c else g;
+	if (a - c) <= b then c else g;
+	if a>=(b+g) then c else g;
+	a:=b
+}
+
+procedure Add(a,b:integer);
+var s:real; 
+var tt,ty:integer;
+{
+	a:=! a;
+	a:=c;
+	s:=10.10;
+	Add(s,s);
+	a:=b;
+	s:=10.1
+}
+
+{
+	temp1:=temp2
+}

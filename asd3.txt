@@ -1,0 +1,59 @@
+program example( input , output ) ;
+
+var obj : integer ;
+var obj1,obj3,obj2 : real ;
+
+var as:real;/* array[34..67] of integer;*/
+
+function Add ( a,b : integer) : integer ;
+
+
+var objz : real ;
+
+/*var as,as,as : array[34..67] of integer;
+*/
+{
+
+        objz :=  a + b ;
+	{
+		obj :=  a + b 
+
+	}
+}
+
+
+function add ( a,b : integer) : integer ;
+
+{
+
+            a:=  a + b 
+
+}
+
+ procedure sun(a:real);
+	var obj,b,c,d,g,t : integer ;
+
+{
+	obj:=22.5;
+	a:=b and c;
+	a:=b <> c;
+	if a<>b then c else g;
+	if a<b then c else g;
+	if a>b then c else g;
+	if (a*7)=(b/5) then c else g;
+	if a<=b then c else g;
+	if a>=(b+90) then c else g;
+	while t do c:=t+9;
+
+           <<(t);
+		>> a 
+
+}
+
+{
+
+            add( obj1, obj2 )
+
+}
+
+ 

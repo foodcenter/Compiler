@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: lex - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\1073\LOCALS~1\Temp\RSP41C.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/lex.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"Z:\compiler\lexiclana\pars.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\1073\LOCALS~1\Temp\RSP41C.tmp" 
+Creating temporary file "C:\DOCUME~1\1073\LOCALS~1\Temp\RSP41D.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/lex.pdb" /debug /machine:I386 /out:"Debug/lex.exe" /pdbtype:sept 
+.\Debug\activ.obj
+.\Debug\Avltree.obj
+.\Debug\code.obj
+.\Debug\lex.obj
+.\Debug\pars.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\1073\LOCALS~1\Temp\RSP41D.tmp"
+<h3>Output Window</h3>
+Compiling...
+pars.cpp
+Z:\compiler\lexiclana\pars.cpp(2190) : warning C4101: 't' : unreferenced local variable
+c:\program files\microsoft visual studio\vc98\include\vector(39) : warning C4786: 'std::reverse_iterator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *,int>' : identifier was truncated to '255' characters in the debug information
+        c:\program files\microsoft visual studio\vc98\include\vector(39) : while compiling class-template member function '__thiscall std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >(const std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > &)'
+c:\program files\microsoft visual studio\vc98\include\vector(39) : warning C4786: 'std::reverse_iterator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,int>' : identifier was truncated to '255' characters in the debug information
+        c:\program files\microsoft visual studio\vc98\include\vector(39) : while compiling class-template member function '__thiscall std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >(const std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > &)'
+c:\program files\microsoft visual studio\vc98\include\list(131) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::iterator,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,int>' : identifier was truncated to '255' characters in the debug information
+        c:\program files\microsoft visual studio\vc98\include\list(129) : while compiling class-template member function '__thiscall std::list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::std::list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >(const std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > &)'
+c:\program files\microsoft visual studio\vc98\include\list(131) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::const_iterator,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *,int>' : identifier was truncated to '255' characters in the debug information
+        c:\program files\microsoft visual studio\vc98\include\list(129) : while compiling class-template member function '__thiscall std::list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::std::list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >(const std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > &)'
+c:\program files\microsoft visual studio\vc98\include\deque(208) : warning C4786: 'std::reverse_iterator<std::deque<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::const_iterator,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const *,int>' : identifier was truncated to '255' characters in the debug information
+        c:\program files\microsoft visual studio\vc98\include\deque(207) : while compiling class-template member function '__thiscall std::deque<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::~std::deque<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >(void)'
+c:\program files\microsoft visual studio\vc98\include\deque(208) : warning C4786: 'std::reverse_iterator<std::deque<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::iterator,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > &,std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,int>' : identifier was truncated to '255' characters in the debug information
+        c:\program files\microsoft visual studio\vc98\include\deque(207) : while compiling class-template member function '__thiscall std::deque<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::~std::deque<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >(void)'
+warning C4786: 'std::stack<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::deque<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >::~stack<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::deque<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >' : identifier was truncated to '255' characters in the debug information
+Z:\compiler\lexiclana\pars.cpp(2017) : warning C4715: 'Parser::get_up' : not all control paths return a value
+c:\program files\microsoft visual studio\vc98\include\list(131) : warning C4786: 'std::list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\list(153) : warning C4786: 'std::list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::~list<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\stack(22) : warning C4786: 'std::stack<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::deque<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >::stack<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::deque<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\deque(208) : warning C4786: 'std::deque<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::~deque<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >' : identifier was truncated to '255' characters in the debug information
+c:\program files\microsoft visual studio\vc98\include\deque(191) : warning C4786: 'std::deque<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::deque<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >' : identifier was truncated to '255' characters in the debug information
+Linking...
+
+
+
+<h3>Results</h3>
+lex.exe - 0 error(s), 14 warning(s)
+</pre>
+</body>
+</html>

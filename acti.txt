@@ -1,0 +1,137 @@
+Mul
+1
+0
+
+
+Parameters:
+a                   0                   
+b                   0                   
+
+
+Dynamic link        1                   
+Static link         1                   
+
+Local variables :
+a                   0                   
+b                   0                   
+
+
+temporary variables :
+~t1                 0                   
+~t2                 0                   
+~t3                 0                   
+~t4                 0                   
+~t5                 0                   
+~t6                 0                   
+
+
+
+Next Record
+Add
+1
+0
+
+
+Parameters:
+x                   0.0                 
+y                   0.0                 
+
+
+Dynamic link        1                   
+Static link         1                   
+
+Local variables :
+x                   0.0                 
+y                   0.0                 
+
+
+temporary variables :
+~t7                 0.0                 
+
+
+
+Next Record
+ItMul
+1
+0
+
+
+Parameters:
+m                   0                   
+n                   0                   
+
+
+Dynamic link        1                   
+Static link         1                   
+
+Local variables :
+count               0                   
+m                   0                   
+n                   0                   
+
+
+temporary variables :
+~t10                0                   
+~t11                0                   
+~t12                0                   
+~t13                0                   
+~t14                0                   
+~t8                 0                   
+~t9                 0                   
+
+
+
+Next Record
+Hello
+1
+0
+
+
+Parameters:
+
+
+Dynamic link        1                   
+Static link         1                   
+
+Local variables :
+
+
+temporary variables :
+
+
+
+Next Record
+Fac
+1
+0
+
+
+Parameters:
+z                   0.0                 
+
+
+Dynamic link        1                   
+Static link         1                   
+
+Local variables :
+a                   0.0                 
+b                   0.0                 
+c                   0.0                 
+d                   0.0                 
+e                   0.0                 
+f                   0.0                 
+test                0                   
+z                   0.0                 
+
+
+temporary variables :
+~t15                0.0                 
+~t16                0                   
+~t17                0.0                 
+~t18                0.0                 
+~t19                0.0                 
+~t20                0.0                 
+
+
+
+Next Record
